@@ -48,7 +48,12 @@ export default function Header({
           
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center cursor-pointer gap-2" onClick={() => navigateToPage('home')}>
-            <div className="w-8 h-8 bg-natural-accent rounded-full"></div>
+            
+            <img
+              src="/logo.png"
+              alt="Dr. Decors Logo"
+              className="w-12 h-12 object-contain"
+            />
             <span className="font-serif text-2xl font-bold tracking-tight text-natural-text-dark">
               Dr. Decors
             </span>

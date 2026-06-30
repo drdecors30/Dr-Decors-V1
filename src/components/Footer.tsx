@@ -101,7 +101,7 @@ export default function Footer({ contactDetails, setActivePage }: FooterProps) {
                 <p className="font-normal text-natural-text-muted">{contact.businessHours}</p>
                 <span className="inline-flex items-center gap-1.5 mt-3 bg-natural-accent/10 text-natural-accent text-[10px] font-semibold uppercase px-2.5 py-1 rounded-full">
                   <span className="w-1.5 h-1.5 bg-green-500 rounded-full animate-pulse"></span>
-                  Doctor consult is active
+                  Dr.Decors
                 </span>
               </div>
             </div>
