@@ -37,7 +37,7 @@ export const createCategory = async (req: Request, res: Response, next: NextFunc
 
     let imageUrl = req.body.imageUrl || '';
     if (req.file) {
-      imageUrl = `/uploads/${req.file.filename}`;
+      imageUrl = (req.file as any).path;
     }
 
     const categoryData = {
@@ -67,7 +67,7 @@ export const updateCategory = async (req: Request, res: Response, next: NextFunc
 
     let imageUrl = req.body.imageUrl || existingCategory.imageUrl;
     if (req.file) {
-      imageUrl = `/uploads/${req.file.filename}`;
+      imageUrl = (req.file as any).path;
     }
 
     const updateData: any = {};

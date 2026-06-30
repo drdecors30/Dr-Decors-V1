@@ -50,7 +50,7 @@ export const createProduct = async (req: Request, res: Response, next: NextFunct
     // Determine imageUrl: either uploaded file or from text input
     let imageUrl = req.body.imageUrl || '';
     if (req.file) {
-      imageUrl = `/uploads/${req.file.filename}`;
+      imageUrl = (req.file as any).path;
     }
 
     if (!imageUrl) {
@@ -101,7 +101,7 @@ export const updateProduct = async (req: Request, res: Response, next: NextFunct
 
     let imageUrl = req.body.imageUrl || existingProduct.imageUrl;
     if (req.file) {
-      imageUrl = `/uploads/${req.file.filename}`;
+      imageUrl = (req.file as any).path;
     }
 
     let parsedSpecs = specs;
