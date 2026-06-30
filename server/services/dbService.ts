@@ -208,7 +208,7 @@ function ensureLocalDB(): ILocalDB {
 
   const defaultDB: ILocalDB = {
     admins: [
-      { id: 'admin_1', username: 'admin', email: 'admin@drdecors.com', passwordHash: defaultAdminHash, role: 'admin', createdAt: new Date().toISOString() }
+      { id: 'admin_1', username: 'Dr.Decors', email: 'drdecors30@gmail.com', passwordHash: defaultAdminHash, role: 'admin', createdAt: new Date().toISOString() }
     ],
     categories: initialCategories,
     products: initialProducts,
