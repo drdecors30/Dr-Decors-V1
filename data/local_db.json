@@ -1,0 +1,154 @@
+{
+  "admins": [
+    {
+      "id": "admin_1",
+      "username": "admin",
+      "email": "admin@drdecors.com",
+      "passwordHash": "$2b$10$eDzIanq3UElXZbEqoJIR9u2hbJx2WBGpREOZ00ssmUBIjhNLS3uRu",
+      "role": "admin",
+      "createdAt": "2026-06-29T16:37:46.597Z"
+    }
+  ],
+  "categories": [],
+  "products": [],
+  "contactMessages": [
+    {
+      "id": "msg_1",
+      "name": "Sophia Loren",
+      "email": "sophia@example.com",
+      "subject": "Consultation Inquiry",
+      "message": "Hi there, I am looking to style my penthouse living room. Do you offer on-site consultations in NY?",
+      "status": "unread",
+      "createdAt": "2026-06-29T16:37:46.597Z"
+    }
+  ],
+  "newsletterSubscribers": [
+    {
+      "id": "sub_1",
+      "email": "welcome@drdecors.com",
+      "createdAt": "2026-06-29T16:37:46.597Z"
+    }
+  ],
+  "purchaseRequests": [
+    {
+      "id": "req_1",
+      "productId": "prod_1",
+      "productTitle": "Nordic Velvet Accent Chair",
+      "customerName": "Johnathan Doe",
+      "customerEmail": "john@example.com",
+      "customerPhone": "+1 234 567 8900",
+      "customerAddress": "123 Park Avenue, New York NY",
+      "message": "I would love to purchase 2 of these chairs in Emerald Green. Please let me know how to wire the payment.",
+      "status": "pending",
+      "createdAt": "2026-06-29T16:37:46.597Z"
+    },
+    {
+      "_id": "req_20jh0zbay",
+      "id": "req_glamggavk",
+      "productId": "prod_2",
+      "productTitle": "Minimalist Pendant Dome Light",
+      "customerName": "Fardin Rehman",
+      "customerEmail": "fardinsaif58@gmail.com",
+      "customerPhone": "+919686105352",
+      "customerAddress": "Karnataka, India",
+      "message": "Hi Dr. Decors, I am highly interested in purchasing the \"Minimalist Pendant Dome Light\" ($189). Please contact me with availability and payment options.",
+      "status": "pending",
+      "createdAt": "2026-06-29T17:10:37.166Z"
+    },
+    {
+      "_id": "req_xj8z6rbui",
+      "id": "req_o4gfony0q",
+      "productId": "prod_3",
+      "productTitle": "Handcrafted Organic Ceramic Vases",
+      "customerName": "Fardin Rehman",
+      "customerEmail": "fardinsaif58@gmail.com",
+      "customerPhone": "+919686105352",
+      "customerAddress": "Karnataka, India",
+      "message": "Hi Dr. Decors, I am highly interested in purchasing the \"Handcrafted Organic Ceramic Vases\" ($79). Please contact me with availability and payment options.",
+      "status": "pending",
+      "createdAt": "2026-06-29T17:16:29.994Z"
+    },
+    {
+      "_id": "req_csoa7e304",
+      "id": "req_h8fwtruup",
+      "productId": "prod_2",
+      "productTitle": "Minimalist Pendant Dome Light",
+      "customerName": "Fardin Rehman",
+      "customerEmail": "fardinsaif58@gmail.com",
+      "customerPhone": "+919686105352",
+      "customerAddress": "Karnataka, India",
+      "message": "Hi Dr. Decors, I am highly interested in purchasing the \"Minimalist Pendant Dome Light\" ($189). Please contact me with availability and payment options.",
+      "status": "pending",
+      "createdAt": "2026-06-29T17:25:39.444Z"
+    },
+    {
+      "_id": "req_avxadeyv3",
+      "id": "req_auixqllr3",
+      "productId": "prod_3",
+      "productTitle": "Handcrafted Organic Ceramic Vases",
+      "customerName": "Fardin Rehman",
+      "customerEmail": "fardinsaif58@gmail.com",
+      "customerPhone": "+919686105352",
+      "customerAddress": "Karnataka, India",
+      "message": "Hi Dr. Decors, I am highly interested in purchasing the \"Handcrafted Organic Ceramic Vases\" ($79). Please contact me with availability and payment options.",
+      "status": "pending",
+      "createdAt": "2026-06-29T17:26:56.380Z"
+    }
+  ],
+  "settings": [
+    {
+      "key": "contact_details",
+      "value": {
+        "companyName": "Dr. Decors",
+        "email": "info@drdecors.com",
+        "phone": "+1 (555) 732-6789",
+        "address": "742 Design Boulevard, Suite 300, New York, NY 10003",
+        "businessHours": "Monday - Saturday: 9:00 AM - 7:00 PM (EST)",
+        "mapLink": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.6175390947746!2d-73.98822608459392!3d40.74844047932824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a9b3117469%3A0xd134e199a405a163!2sEmpire%20State%20Building!5e0!3m2!1sen!2sus!4v1652193264903!5m2!1sen!2sus",
+        "facebook": "https://facebook.com/drdecors",
+        "instagram": "https://instagram.com/drdecors",
+        "pinterest": "https://pinterest.com/drdecors"
+      }
+    },
+    {
+      "key": "faqs",
+      "value": [
+        {
+          "q": "Can I request customization for the furniture designs?",
+          "a": "Yes! We specialize in custom fabric upholstery, custom dimensions, and finish variations. Please submit an enquiry or call our design assistants directly."
+        },
+        {
+          "q": "How long does shipping take for order items?",
+          "a": "Standard items in stock ship within 3-5 business days and deliver in 7-10 days. Customized furniture and wallpaper prints take 4-6 weeks to build, inspect, and ship."
+        },
+        {
+          "q": "Do you offer virtual interior design consultations?",
+          "a": "Absolutely! Our design doctors offer a 45-minute virtual video walkthrough to assist with room styling, spatial planning, and material selections."
+        },
+        {
+          "q": "What is your return policy for delicate decor items?",
+          "a": "We accept returns on all standard unused items within 14 days of delivery. Custom-made orders or bespoke wallpaper measurements cannot be returned unless damaged during shipping."
+        }
+      ]
+    },
+    {
+      "key": "hero_slides",
+      "value": [
+        {
+          "title": "Prescribe Style to Your Space",
+          "subtitle": "Welcome to Dr. Decors. We heal dull rooms with handcrafted furnishings, designer lighting, and tailored wallpapers.",
+          "image": "https://images.unsplash.com/photo-1618220179428-22790b461013?w=1600&auto=format&fit=crop&q=80",
+          "ctaText": "Explore Collection",
+          "ctaLink": "/products"
+        },
+        {
+          "title": "Sculpted Lighting Masterpieces",
+          "subtitle": "A stunning collection of modern pendant globes, solid marble desk lamps, and warm light sculptures.",
+          "image": "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?w=1600&auto=format&fit=crop&q=80",
+          "ctaText": "Shop Lighting",
+          "ctaLink": "/products?category=lighting"
+        }
+      ]
+    }
+  ]
+}
