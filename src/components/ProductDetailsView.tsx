@@ -83,7 +83,7 @@ ${message || "None"}
 `;
 
   window.open(
-    `https://wa.me/${8310881773}?text=${encodeURIComponent(
+    `https://wa.me/${+918310881773}?text=${encodeURIComponent(
       whatsappMessage
     )}`,
     "_blank"
