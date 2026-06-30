@@ -307,9 +307,9 @@ export default function HomeView({
 
                 <div className="flex items-center justify-between pt-5 mt-4 border-t border-natural-border/60">
                   <div className="flex items-baseline gap-2">
-                    <span className="text-md font-bold text-natural-text-dark">${p.price}</span>
+                    <span className="text-md font-bold text-natural-text-dark">₹{p.price}</span>
                     {p.originalPrice && (
-                      <span className="text-xs text-natural-text-muted line-through">${p.originalPrice}</span>
+                      <span className="text-xs text-natural-text-muted line-through">₹{p.originalPrice}</span>
                     )}
                   </div>
                   <button

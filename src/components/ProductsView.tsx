@@ -205,9 +205,9 @@ export default function ProductsView({
 
                       <div className="flex items-center justify-between pt-4 mt-4 border-t border-natural-border/60">
                         <div className="flex items-baseline gap-1.5">
-                          <span className="text-sm font-bold text-natural-text-dark">${p.price}</span>
+                          <span className="text-sm font-bold text-natural-text-dark">₹{p.price}</span>
                           {p.originalPrice && (
-                            <span className="text-[10px] text-natural-text-muted line-through">${p.originalPrice}</span>
+                            <span className="text-[10px] text-natural-text-muted line-through">₹{p.originalPrice}</span>
                           )}
                         </div>
                         <button

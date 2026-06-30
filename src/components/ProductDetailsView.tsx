@@ -23,7 +23,7 @@ export default function ProductDetailsView({
   const [customerEmail, setCustomerEmail] = useState('');
   const [customerPhone, setCustomerPhone] = useState('');
   const [customerAddress, setCustomerAddress] = useState('');
-  const [message, setMessage] = useState(`Hi Dr. Decors, I am highly interested in purchasing the "${product.title}" ($${product.price}). Please contact me with availability and payment options.`);
+  const [message, setMessage] = useState(`Hi Dr. Decors, I am highly interested in purchasing the "${product.title}" (₹${product.price}). Please contact me with availability and payment options.`);
   
   const [loading, setLoading] = useState(false);
   const [success, setSuccess] = useState(false);
@@ -169,9 +169,9 @@ ${message || "None"}
 
           {/* Pricing Box */}
           <div className="bg-[#fcfcf9] border border-natural-border p-5 rounded-2xl flex items-baseline gap-3">
-            <span className="text-2xl font-bold text-natural-text-dark">${product.price}</span>
+            <span className="text-2xl font-bold text-natural-text-dark">₹{product.price}</span>
             {product.originalPrice && (
-              <span className="text-sm text-natural-text-muted line-through font-light">${product.originalPrice}</span>
+              <span className="text-sm text-natural-text-muted line-through font-light">₹{product.originalPrice}</span>
             )}
             <span className="text-[10px] uppercase font-bold text-[#5A5A40] tracking-widest bg-[#e9e9e0] px-3 py-1 rounded-full ml-auto">
               Diagnostic Cleared
@@ -248,9 +248,9 @@ ${message || "None"}
                     {p.title}
                   </h3>
                   <div className="flex items-baseline gap-1.5 pt-1">
-                    <span className="text-xs font-bold text-natural-text-dark">${p.price}</span>
+                    <span className="text-xs font-bold text-natural-text-dark">₹{p.price}</span>
                     {p.originalPrice && (
-                      <span className="text-[10px] text-natural-text-muted line-through font-light">${p.originalPrice}</span>
+                      <span className="text-[10px] text-natural-text-muted line-through font-light">₹{p.originalPrice}</span>
                     )}
                   </div>
                 </div>
@@ -321,7 +321,7 @@ ${message || "None"}
                         />
                         <div>
                           <h4 className="font-serif font-bold text-natural-text-dark text-sm">{product.title}</h4>
-                          <p className="font-bold text-natural-accent mt-0.5">${product.price}</p>
+                          <p className="font-bold text-natural-accent mt-0.5">₹{product.price}</p>
                         </div>
                       </div>
 

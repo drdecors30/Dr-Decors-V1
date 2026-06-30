@@ -693,7 +693,7 @@ export default function AdminDashboardView({
                           </div>
                         </td>
                         <td className="px-6 py-4 font-semibold text-stone-500 uppercase">{p.category}</td>
-                        <td className="px-6 py-4 font-bold text-stone-800">${p.price}</td>
+                        <td className="px-6 py-4 font-bold text-stone-800">₹{p.price}</td>
                         <td className="px-6 py-4">
                           <span className={`px-2 py-0.5 rounded text-[10px] font-bold ${
                             p.stockStatus === 'In Stock' ? 'bg-emerald-500/10 text-emerald-600' : 'bg-rose-500/10 text-rose-600'
@@ -1184,14 +1184,14 @@ export default function AdminDashboardView({
 
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
                   <div className="space-y-1">
-                    <label className="font-bold text-stone-700">Price ($) *</label>
+                    <label className="font-bold text-stone-700">Price (₹) *</label>
                     <input
                       type="number" required value={prodPrice} onChange={(e) => setProdPrice(e.target.value)}
                       className="w-full border border-stone-200 px-3 py-2 rounded-lg"
                     />
                   </div>
                   <div className="space-y-1">
-                    <label className="font-bold text-stone-700">Original Price ($)</label>
+                    <label className="font-bold text-stone-700">Original Price (₹)</label>
                     <input
                       type="number" value={prodOrigPrice} onChange={(e) => setProdOrigPrice(e.target.value)}
                       className="w-full border border-stone-200 px-3 py-2 rounded-lg"
