@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Menu, X, Search, Lock, Compass } from 'lucide-react';
+import logo from "../assets/logo.jpeg";
 
 interface HeaderProps {
   activePage: string;
