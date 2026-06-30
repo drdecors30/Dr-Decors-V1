@@ -61,7 +61,7 @@ export default function ProductDetailsView({
       const data = await res.json();
 
       if (data.success) {
-  const whatsappNumber = "919876543210"; // Replace with your WhatsApp number (country code, no +)
+  const whatsappNumber = "+91 8310881773"; // Replace with your WhatsApp number (country code, no +)
 
   const whatsappMessage = `
  *New Purchase Request*
@@ -83,7 +83,7 @@ ${message || "None"}
 `;
 
   window.open(
-    `https://wa.me/${9620532473}?text=${encodeURIComponent(
+    `https://wa.me/${8310881773}?text=${encodeURIComponent(
       whatsappMessage
     )}`,
     "_blank"
